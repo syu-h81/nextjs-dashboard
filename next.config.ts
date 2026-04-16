@@ -1,7 +1,6 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  cacheComponents: true,  //アプリ全体（全ページ）に適用される
 };
 
-export default nextConfig;
+module.exports = nextConfig;
